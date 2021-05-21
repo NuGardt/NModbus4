@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("2.1.0.0")]
 [assembly: AssemblyInformationalVersion("2.1.0-dev")]
 
-#if !SIGNED
-[assembly: InternalsVisibleTo(@"Modbus.UnitTests")]
-[assembly: InternalsVisibleTo(@"DynamicProxyGenAssembly2")]
-#endif
+//#if !SIGNED
+//[assembly: InternalsVisibleTo(@"Modbus.UnitTests")]
+//[assembly: InternalsVisibleTo(@"DynamicProxyGenAssembly2")]
+//#endif
